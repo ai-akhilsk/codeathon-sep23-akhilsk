@@ -1,3 +1,5 @@
+  // add documentation in the method above to explain what this function does
+
 function findMaxProfit(prices) {
     let minPrice = Infinity;
     let maxProfit = 0;
