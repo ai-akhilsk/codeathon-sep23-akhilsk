@@ -1,5 +1,8 @@
-  // add documentation in the method above to explain what this function does
-
+/**
+ * Finds the maximum profit that can be made by buying and selling stocks.
+ * @param {number[]} prices - An array of stock prices.
+ * @returns {number} The maximum profit that can be made, or -1 if no profit can be made.
+ */
 function findMaxProfit(prices) {
     let minPrice = Infinity;
     let maxProfit = 0;
