@@ -1,3 +1,8 @@
+/**
+ * Sorts a string according to the frequency of characters.
+ * @param {string} s - The string to sort.
+ * @returns {string} The sorted string.
+ */
 function sortStringByFrequency(s) {
     // create a map to store the frequency of each character
     const freq = new Map();
